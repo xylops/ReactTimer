@@ -1,5 +1,5 @@
 var React = require('react');
-var {Link} = require('react-router')
+var {Link, IndexLink} = require('react-router')
 
 var Nav = (props) => {
     return(
@@ -9,8 +9,8 @@ var Nav = (props) => {
                     <li className="menu-text">
                         React Timer App
                     </li>
-                    <li><Link to="/" activeClassName="active">Timer</Link></li>
-                    <li><Link to="/" activeClassName="active">Count Down</Link></li>
+                    <li><IndexLink to="/" activeClassName="active-link">Timer</IndexLink></li>
+                    <li><Link to="/countDown" activeClassName="active-link">Count Down</Link></li>
                 </ul>
             </div>
             <div className="top-bar-right">
@@ -20,7 +20,6 @@ var Nav = (props) => {
                     </li>
                 </ul>
             </div>
-
         </div>
     )
 }

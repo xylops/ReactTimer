@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Navigation = require('Navigation')
+var Navigation = require('Navigation');
 
 var Main = (props) => {
     return(
