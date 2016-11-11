@@ -16,7 +16,7 @@ var Nav = (props) => {
             <div className="top-bar-right">
                 <ul className="menu">
                     <li className="menu-text">
-                        Create By <a href="www.github.com/xylops" target="_blank">Xylops</a>
+                        Create By <a href="http://www.github.com/xylops" target="_blank">Xylops</a>
                     </li>
                 </ul>
             </div>
